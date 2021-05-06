@@ -1,0 +1,18 @@
+{
+  "name": "reflux-demo",
+  "version": "0.0.1",
+  "authorname": {
+    "github": "github.com/IjayAbby"
+  },
+  "repository": "https://github.com/IjayAbby/reflux-demo",
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "reflux": "^0.2.8"
+  },
+  "scripts": {
+    "build": "browserify -t babelify app.js > build.js"
+  }
+}
